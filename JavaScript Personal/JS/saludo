@@ -1,0 +1,92 @@
+/*for(var i = 1;i<=35;i++){
+    console.log("Cuenta por el numero "+i);
+}
+
+for(var i =10 ;i>=0;i--){
+    console.log(i);
+    if(i==0){
+        console.log("Feliz año")
+    }
+}/*
+
+/*var nombre = "Adri";
+ var edad = 30;
+var presenteONo = true;
+ var apellido = "Gonzalez";
+ var estatura = 1.88;
+ console. log("Nombre:"  + nombre);
+ console. log("Edad:"  + edad);
+ console. log("Presente: " + presenteONo);
+ console. log("Apellido: " + apellido);
+ console. log("Estatura: " + estatura);
+ estatura = 1.78;
+ 
+ if (estatura > 1.80){
+   console. log ("Puedo entrar");
+ }
+ else {
+   console. log ("Tengo que crecer");
+ }*/
+
+//alert ("Hola mundo con Javascript " + nombre);
+
+ 
+
+/*var color = prompt("Escribi un color primario");
+switch (color) {
+case "rojo":{
+console.log ("color rojo");
+break
+}
+case "XD":{
+console.log ("Bro eso no es un color");
+break
+}
+case "azul":{
+console.log ("color azul");
+break
+}
+}
+
+var n1 = prompt("introduzca el primer numero");
+var n2 = prompt("introduzca el segundo numero");
+var result =n1-n2;
+while(result==0){
+    alert("La resta no puede ser 0 introduzca los numeros de nuevo")
+    var n1 = prompt("introduzca el primer numero");
+    var n2 = prompt("introduzca el segundo numero");
+    var result =n1-n2;
+}
+var resto =result%2;
+if(result>0){
+    alert("El numero "+result+" es mayor que 0")
+    if(resto!=0){
+        console.log("El numero "+result+" es impar")
+    }
+    else{
+        console.log("El numero "+result+" es par")
+    }
+   
+}
+else{
+    alert("El numero "+result+" es menor que 0")
+    if(resto!=0){
+        console.log("El numero "+result+" es impar")
+    }
+    else{
+        console.log("El numero "+result+" es par")
+    }
+}
+
+for (var i=1;i<10; i++) {
+    console. log("Vuelta N°" + i);
+}
+
+
+window.prompt("Quieres??");
+var siono =window.confirm("Seguro?")
+console.log(siono)
+*/
+
+var fecha = new Date(); 
+alert("La fecha de hoy es: " + fecha) ;
